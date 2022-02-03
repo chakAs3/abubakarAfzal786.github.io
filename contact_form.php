@@ -1,6 +1,6 @@
 <?php
 
-$mail_to  = "youremail@email.com";  // replace it with your email
+$mail_to  = "abubakar.ranglerz@gmail.com";  // replace it with your email
 
 $name     = $_POST['name'];
 $email    = $_POST['email'];
@@ -19,7 +19,7 @@ $body   .= "Message: " . "\n\n" . "$message" . "\n\n";
 $from  = "From: " . "$name " . "<$email>";
 
 if (mail($mail_to, $subject, $body, $from)) {
-  echo "success";
+	echo "success";
 } else {
-  echo "error";
+	echo "error";
 }
