@@ -906,6 +906,7 @@
 										<div class="control has-prefix-icon">
 											<input
 												type="text"
+												id="name"
 												name="name"
 												placeholder="e.g. John Doe"
 												minlength="3"
@@ -937,8 +938,9 @@
 											<input
 												class="ltr-dir"
 												type="email"
-												inputmode="email"
+												id="email"
 												name="email"
+												inputmode="email"
 												placeholder="e.g. john.doe@gmail.com"
 												required
 											/>
@@ -995,6 +997,7 @@
 										<label>Message</label>
 										<div class="control has-prefix-icon">
 											<textarea
+												id="message"
 												name="message"
 												placeholder="Write message..."
 												required
@@ -1017,9 +1020,9 @@
 									<div class="group">
 										<div class="control">
 											<button
+												type="submit"
 												class="submit-btn btn btn-dark"
 												type="button"
-												@click="contactFormValidation"
 											>
 												Send
 											</button>
