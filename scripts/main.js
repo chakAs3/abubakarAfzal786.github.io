@@ -1726,7 +1726,6 @@ const app = Vue.createApp({
 			const email = contactForm.querySelector('input[name="email"]');
 			const phone = contactForm.querySelector('input[name="phone"]');
 			const message = contactForm.querySelector("textarea");
-
 			// form validation status
 			let errors = {
 				name: { required: true, minLength: true },
@@ -1919,12 +1918,17 @@ const app = Vue.createApp({
 
 			// start loading spinner
 			this.startLoading();
-
+			requestData = {
+				name: form.name.value,
+				email: form.email.value,
+				phone: form.phone.value,
+				message: form.message.value,
+			};
 			// send post request
-			fetch(url, { method: "POST", body: formData })
-				.then((res) => res.text())
-				.then((data) => {
-					if (data === "success") {
+			axios
+				.post(url, requestData)
+				.then((res) => {
+					if (res) {
 						// show success message
 						this.setNotify({
 							className: "success",
@@ -1939,7 +1943,7 @@ const app = Vue.createApp({
 						form.querySelectorAll(".valid").forEach((el) =>
 							el.classList.remove("valid")
 						);
-					} else if (data === "error") {
+					} else if (res === null) {
 						// show error message
 						this.setNotify({
 							className: "danger",
@@ -1950,9 +1954,8 @@ const app = Vue.createApp({
 
 					// end loading spinner
 					this.endLoading();
-
-					console.log(data);
 				})
+
 				.catch((err) => console.log(err));
 		},
 
