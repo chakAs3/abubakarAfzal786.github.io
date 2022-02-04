@@ -18,7 +18,12 @@
 
 		<!-- favicon -->
 		<link rel="icon" href="assets/favicon.ico" />
-
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.25.0/axios.min.js"
+			integrity="sha512-/Q6t3CASm04EliI1QyIDAA/nDo9R8FQ/BULoUFyN4n/BDdyIxeH7u++Z+eobdmr11gG5D/6nPFyDlnisDwhpYA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
 		<!-- fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -1020,7 +1025,7 @@
 									<div class="group">
 										<div class="control">
 											<button
-												type="submit"
+												@click="contactFormValidation"
 												class="submit-btn btn btn-dark"
 												type="button"
 											>
