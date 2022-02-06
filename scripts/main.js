@@ -74,7 +74,7 @@ const app = Vue.createApp({
 				},
 				{
 					imgUrl: "assets/images/skills/nestjs.svg",
-					title: "Laravel",
+					title: "Nest.js",
 				},
 				{
 					imgUrl: "assets/images/skills/vue.png",
@@ -274,9 +274,9 @@ const app = Vue.createApp({
 				{
 					id: 1,
 					url: "single-portfolio.html?id=1",
-					imgUrl: "https://via.placeholder.com/400x400",
+					imgUrl: "assets/images/portfolio/opflafil/op-flafal-1.png",
 					title: {
-						en: "Lorem Ipsum Dolor 1",
+						en: "Operation Flafal",
 						ar: "هنا عنوان المشروع 1",
 					},
 					date: { en: "April 2021", ar: "أبريل 2021" },
@@ -284,7 +284,7 @@ const app = Vue.createApp({
 						en: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
 						ar: "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.",
 					},
-					category: "HTML",
+					category: ["React.js", "Node.js"],
 					tools: [
 						"HTML",
 						"PugJS",
@@ -320,210 +320,75 @@ const app = Vue.createApp({
 						},
 					},
 				},
-				{
-					id: 2,
-					url: "single-portfolio.html?id=2",
-					imgUrl: "https://via.placeholder.com/530x300",
-					title: {
-						en: "Lorem Ipsum Dolor 2",
-						ar: "هنا عنوان المشروع 2",
-					},
-					date: { en: "April 2021", ar: "أبريل 2021" },
-					desc: {
-						en: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-						ar: "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.",
-					},
-					category: "Angular",
-					tools: [
-						"HTML",
-						"Slim",
-						"CSS",
-						"Less",
-						"JavaScript",
-						"TypeScript",
-						"TailwindCSS",
-						"AJAX",
-						"Angular",
-						"NodeJs",
-						"MongoDB",
-					],
-					screenshots: {
-						img1: {
-							url: "https://via.placeholder.com/355x200",
-							caption: { en: "caption 5", ar: "تسمية توضيحية 5" },
-						},
-						img2: {
-							url: "https://via.placeholder.com/330x460",
-							caption: { en: "caption 4", ar: "تسمية توضيحية 4" },
-						},
-						img3: {
-							url: "https://via.placeholder.com/300x225",
-							caption: { en: "caption 3", ar: "تسمية توضيحية 3" },
-						},
-						img4: {
-							url: "https://via.placeholder.com/300x225",
-							caption: { en: "caption 2", ar: "تسمية توضيحية 2" },
-						},
-						img5: {
-							url: "https://via.placeholder.com/300x225",
-							caption: { en: "caption 1", ar: "تسمية توضيحية 1" },
-						},
-					},
-				},
-				{
-					id: 3,
-					url: "single-portfolio.html?id=3",
-					imgUrl: "https://via.placeholder.com/390x390",
-					title: {
-						en: "Lorem Ipsum Dolor 3",
-						ar: "هنا عنوان المشروع 3",
-					},
-					date: { en: "April 2021", ar: "أبريل 2021" },
-					desc: {
-						en: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-						ar: "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.",
-					},
-					category: "Vue",
-					tools: [
-						"HTML",
-						"PugJS",
-						"CSS",
-						"SCSS",
-						"JavaScript",
-						"Gulp",
-						"Materialize",
-						"AJAX",
-						"Vue",
-						"Firebase",
-					],
-					screenshots: {
-						img1: {
-							url: "https://via.placeholder.com/355x200",
-							caption: { en: "caption 5", ar: "تسمية توضيحية 5" },
-						},
-						img2: {
-							url: "https://via.placeholder.com/330x460",
-							caption: { en: "caption 4", ar: "تسمية توضيحية 4" },
-						},
-						img3: {
-							url: "https://via.placeholder.com/300x225",
-							caption: { en: "caption 3", ar: "تسمية توضيحية 3" },
-						},
-						img4: {
-							url: "https://via.placeholder.com/300x225",
-							caption: { en: "caption 2", ar: "تسمية توضيحية 2" },
-						},
-						img5: {
-							url: "https://via.placeholder.com/300x225",
-							caption: { en: "caption 1", ar: "تسمية توضيحية 1" },
-						},
-					},
-				},
-				{
-					id: 4,
-					url: "single-portfolio.html?id=4",
-					imgUrl: "https://via.placeholder.com/340x510",
-					title: {
-						en: "Lorem Ipsum Dolor 4",
-						ar: "هنا عنوان المشروع 4",
-					},
-					date: { en: "April 2021", ar: "أبريل 2021" },
-					desc: {
-						en: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-						ar: "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.",
-					},
-					category: "HTML",
-					tools: [
-						"HTML",
-						"Slim",
-						"CSS",
-						"Less",
-						"JavaScript",
-						"TypeScript",
-						"TailwindCSS",
-						"AJAX",
-						"Angular",
-						"NodeJs",
-						"MongoDB",
-					],
-					screenshots: {
-						img1: {
-							url: "https://via.placeholder.com/355x200",
-							caption: { en: "caption 5", ar: "تسمية توضيحية 5" },
-						},
-						img2: {
-							url: "https://via.placeholder.com/330x460",
-							caption: { en: "caption 4", ar: "تسمية توضيحية 4" },
-						},
-						img3: {
-							url: "https://via.placeholder.com/300x225",
-							caption: { en: "caption 3", ar: "تسمية توضيحية 3" },
-						},
-						img4: {
-							url: "https://via.placeholder.com/300x225",
-							caption: { en: "caption 2", ar: "تسمية توضيحية 2" },
-						},
-						img5: {
-							url: "https://via.placeholder.com/300x225",
-							caption: { en: "caption 1", ar: "تسمية توضيحية 1" },
-						},
-					},
-				},
+
 				{
 					id: 5,
 					url: "single-portfolio.html?id=5",
-					imgUrl: "https://via.placeholder.com/380x215",
+					imgUrl: "assets/images/portfolio/spendlly/spendlly-2.png",
 					title: {
-						en: "Lorem Ipsum Dolor 5",
-						ar: "هنا عنوان المشروع 5",
+						en: "Spendlly",
+						ar: "أنفق",
 					},
 					date: { en: "April 2021", ar: "أبريل 2021" },
 					desc: {
 						en: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
 						ar: "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.",
 					},
-					category: "Angular",
+					category: ["Vue.js", "Node.js"],
 					tools: [
 						"HTML",
 						"PugJS",
-						"CSS",
+						"Docker",
+						"CicleCi",
+						"Nginx",
 						"SCSS",
 						"JavaScript",
-						"Gulp",
 						"Bootstrap",
-						"AJAX",
-						"Vue",
+						"Node.js",
+						"Vue.js",
 						"Firebase",
 					],
 					screenshots: {
 						img1: {
-							url: "https://via.placeholder.com/355x200",
-							caption: { en: "caption 5", ar: "تسمية توضيحية 5" },
+							url: "assets/images/portfolio/spendlly/spendlly-1.png",
+							caption: { en: "caption 1", ar: "تسمية توضيحية 1" },
 						},
 						img2: {
-							url: "https://via.placeholder.com/330x460",
-							caption: { en: "caption 4", ar: "تسمية توضيحية 4" },
-						},
-						img3: {
-							url: "https://via.placeholder.com/300x225",
+							url: "assets/images/portfolio/spendlly/spendlly-3.png",
 							caption: { en: "caption 3", ar: "تسمية توضيحية 3" },
 						},
+						img3: {
+							url: "assets/images/portfolio/spendlly/spendlly-4.png",
+							caption: { en: "caption 4", ar: "تسمية توضيحية 4" },
+						},
 						img4: {
-							url: "https://via.placeholder.com/300x225",
-							caption: { en: "caption 2", ar: "تسمية توضيحية 2" },
+							url: "assets/images/portfolio/spendlly/spendlly-5.png",
+							caption: { en: "caption 5", ar: "تسمية توضيحية 5" },
 						},
 						img5: {
-							url: "https://via.placeholder.com/300x225",
-							caption: { en: "caption 1", ar: "تسمية توضيحية 1" },
+							url: "assets/images/portfolio/spendlly/spendlly-6.png",
+							caption: { en: "caption 6", ar: "تسمية توضيحية 6" },
+						},
+						img5: {
+							url: "assets/images/portfolio/spendlly/spendlly-7.png",
+							caption: { en: "caption 7", ar: "تسمية توضيحية 7" },
+						},
+						img5: {
+							url: "assets/images/portfolio/spendlly/spendlly-8.png",
+							caption: { en: "caption 8", ar: "تسمية توضيحية 8" },
+						},
+						img5: {
+							url: "assets/images/portfolio/spendlly/spendlly-9.png",
+							caption: { en: "caption 9", ar: "تسمية توضيحية 9" },
 						},
 					},
 				},
 				{
 					id: 6,
 					url: "single-portfolio.html?id=6",
-					imgUrl: "https://via.placeholder.com/400x300",
+					imgUrl: "assets/images/portfolio/miuz/miuz-1.png",
 					title: {
-						en: "Lorem Ipsum Dolor 6",
+						en: "Miuz",
 						ar: "هنا عنوان المشروع 6",
 					},
 					date: { en: "April 2021", ar: "أبريل 2021" },
@@ -571,7 +436,7 @@ const app = Vue.createApp({
 				{
 					id: 7,
 					url: "single-portfolio.html?id=7",
-					imgUrl: "https://via.placeholder.com/380x215",
+					imgUrl: "assets/images/portfolio/seha/seha-1.png",
 					title: {
 						en: "Lorem Ipsum Dolor 7",
 						ar: "هنا عنوان المشروع 7",
@@ -620,9 +485,9 @@ const app = Vue.createApp({
 				{
 					id: 8,
 					url: "single-portfolio.html?id=8",
-					imgUrl: "https://via.placeholder.com/340x340",
+					imgUrl: "assets/images/portfolio/gme/gme-1.png",
 					title: {
-						en: "Lorem Ipsum Dolor 8",
+						en: "Gulf Middle East",
 						ar: "هنا عنوان المشروع 8",
 					},
 					date: { en: "April 2021", ar: "أبريل 2021" },
@@ -667,111 +532,13 @@ const app = Vue.createApp({
 						},
 					},
 				},
-				{
-					id: 9,
-					url: "single-portfolio.html?id=9",
-					imgUrl: "https://via.placeholder.com/300x375",
-					title: {
-						en: "Lorem Ipsum Dolor 9",
-						ar: "هنا عنوان المشروع 9",
-					},
-					date: { en: "April 2021", ar: "أبريل 2021" },
-					desc: {
-						en: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-						ar: "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.",
-					},
-					category: "Angular",
-					tools: [
-						"HTML",
-						"PugJS",
-						"CSS",
-						"SCSS",
-						"JavaScript",
-						"Gulp",
-						"Materialize",
-						"AJAX",
-						"Vue",
-						"Firebase",
-					],
-					screenshots: {
-						img1: {
-							url: "https://via.placeholder.com/355x200",
-							caption: { en: "caption 5", ar: "تسمية توضيحية 5" },
-						},
-						img2: {
-							url: "https://via.placeholder.com/330x460",
-							caption: { en: "caption 4", ar: "تسمية توضيحية 4" },
-						},
-						img3: {
-							url: "https://via.placeholder.com/300x225",
-							caption: { en: "caption 3", ar: "تسمية توضيحية 3" },
-						},
-						img4: {
-							url: "https://via.placeholder.com/300x225",
-							caption: { en: "caption 2", ar: "تسمية توضيحية 2" },
-						},
-						img5: {
-							url: "https://via.placeholder.com/300x225",
-							caption: { en: "caption 1", ar: "تسمية توضيحية 1" },
-						},
-					},
-				},
-				{
-					id: 10,
-					url: "single-portfolio.html?id=10",
-					imgUrl: "https://via.placeholder.com/350x200",
-					title: {
-						en: "Lorem Ipsum Dolor 10",
-						ar: "هنا عنوان المشروع 10",
-					},
-					date: { en: "April 2021", ar: "أبريل 2021" },
-					desc: {
-						en: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-						ar: "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.",
-					},
-					category: "HTML",
-					tools: [
-						"HTML",
-						"Slim",
-						"CSS",
-						"Less",
-						"JavaScript",
-						"TypeScript",
-						"Bootstrap",
-						"AJAX",
-						"Angular",
-						"NodeJs",
-						"MongoDB",
-					],
-					screenshots: {
-						img1: {
-							url: "https://via.placeholder.com/355x200",
-							caption: { en: "caption 5", ar: "تسمية توضيحية 5" },
-						},
-						img2: {
-							url: "https://via.placeholder.com/330x460",
-							caption: { en: "caption 4", ar: "تسمية توضيحية 4" },
-						},
-						img3: {
-							url: "https://via.placeholder.com/300x225",
-							caption: { en: "caption 3", ar: "تسمية توضيحية 3" },
-						},
-						img4: {
-							url: "https://via.placeholder.com/300x225",
-							caption: { en: "caption 2", ar: "تسمية توضيحية 2" },
-						},
-						img5: {
-							url: "https://via.placeholder.com/300x225",
-							caption: { en: "caption 1", ar: "تسمية توضيحية 1" },
-						},
-					},
-				},
+
 				{
 					id: 11,
 					url: "single-portfolio.html?id=11",
-					imgUrl: "https://via.placeholder.com/400x300",
+					imgUrl: "assets/images/portfolio/cobuilder/cobuilder-1.png",
 					title: {
-						en: "Lorem Ipsum Dolor 11",
+						en: "CoBuilder",
 						ar: "هنا عنوان المشروع 11",
 					},
 					date: { en: "April 2021", ar: "أبريل 2021" },
@@ -818,9 +585,9 @@ const app = Vue.createApp({
 				{
 					id: 12,
 					url: "single-portfolio.html?id=12",
-					imgUrl: "https://via.placeholder.com/300x280",
+					imgUrl: "assets/images/portfolio/lepetitshop/lepetitshop-1.png",
 					title: {
-						en: "Lorem Ipsum Dolor 12",
+						en: "LepetitShop",
 						ar: "هنا عنوان المشروع 12",
 					},
 					date: { en: "April 2021", ar: "أبريل 2021" },
@@ -868,9 +635,9 @@ const app = Vue.createApp({
 				{
 					id: 13,
 					url: "single-portfolio.html?id=13",
-					imgUrl: "https://via.placeholder.com/300x270",
+					imgUrl: "assets/images/portfolio/baroque/baroque-aviation-1.png",
 					title: {
-						en: "Lorem Ipsum Dolor 13",
+						en: "Baroque Aviation",
 						ar: "هنا عنوان المشروع 13",
 					},
 					date: { en: "April 2021", ar: "أبريل 2021" },
@@ -917,9 +684,9 @@ const app = Vue.createApp({
 				{
 					id: 14,
 					url: "single-portfolio.html?id=14",
-					imgUrl: "https://via.placeholder.com/375x500",
+					imgUrl: "assets/images/portfolio/medicall/medicall-1.png",
 					title: {
-						en: "Lorem Ipsum Dolor 14",
+						en: "Medicall",
 						ar: "هنا عنوان المشروع 14",
 					},
 					date: { en: "April 2021", ar: "أبريل 2021" },
@@ -967,9 +734,9 @@ const app = Vue.createApp({
 				{
 					id: 15,
 					url: "single-portfolio.html?id=15",
-					imgUrl: "https://via.placeholder.com/375x240",
+					imgUrl: "assets/images/portfolio/gotrip/gotrip-1.png",
 					title: {
-						en: "Lorem Ipsum Dolor 15",
+						en: "GoTrip",
 						ar: "هنا عنوان المشروع 15",
 					},
 					date: { en: "April 2021", ar: "أبريل 2021" },
@@ -1016,9 +783,9 @@ const app = Vue.createApp({
 				{
 					id: 16,
 					url: "single-portfolio.html?id=16",
-					imgUrl: "https://via.placeholder.com/570x400",
+					imgUrl: "assets/images/portfolio/dubainights/dubainights-1.png",
 					title: {
-						en: "Lorem Ipsum Dolor 16",
+						en: "Dubai Nights",
 						ar: "هنا عنوان المشروع 16",
 					},
 					date: { en: "April 2021", ar: "أبريل 2021" },
@@ -1066,9 +833,9 @@ const app = Vue.createApp({
 				{
 					id: 17,
 					url: "single-portfolio.html?id=17",
-					imgUrl: "https://via.placeholder.com/375x300",
+					imgUrl: "assets/images/portfolio/baroque/baroque-yatch-1.png",
 					title: {
-						en: "Lorem Ipsum Dolor 17",
+						en: "Baroque Yatchs",
 						ar: "هنا عنوان المشروع 17",
 					},
 					date: { en: "April 2021", ar: "أبريل 2021" },
@@ -1091,7 +858,7 @@ const app = Vue.createApp({
 					],
 					screenshots: {
 						img1: {
-							url: "https://via.placeholder.com/355x200",
+							url: "",
 							caption: { en: "caption 5", ar: "تسمية توضيحية 5" },
 						},
 						img2: {
@@ -1115,9 +882,9 @@ const app = Vue.createApp({
 				{
 					id: 18,
 					url: "single-portfolio.html?id=18",
-					imgUrl: "https://via.placeholder.com/350x500",
+					imgUrl: "assets/images/portfolio/ramp/ramp-1.png",
 					title: {
-						en: "Lorem Ipsum Dolor 18",
+						en: "Ramp",
 						ar: "هنا عنوان المشروع 18",
 					},
 					date: { en: "April 2021", ar: "أبريل 2021" },
@@ -1413,8 +1180,8 @@ const app = Vue.createApp({
 
 				// add link hover style
 				e.target.closest("a") ||
-				e.target.closest("button") ||
-				e.target.closest(".link-hover")
+					e.target.closest("button") ||
+					e.target.closest(".link-hover")
 					? inner.classList.add("cursor-link-hover")
 					: inner.classList.remove("cursor-link-hover");
 			});
@@ -1660,7 +1427,7 @@ const app = Vue.createApp({
 							const cat = urlParams.get("cat");
 
 							this.portfolioArchiveName = cat;
-							return item.category === cat;
+							return item.category.includes(cat);
 						} else if (tax === "tools") {
 							const tool = urlParams.get("tools");
 
@@ -1670,7 +1437,7 @@ const app = Vue.createApp({
 					} else {
 						return (
 							this.currentFilter === "All" ||
-							item.category === this.currentFilter
+							item.category.includes(this.currentFilter)
 						);
 					}
 				})
@@ -2023,14 +1790,13 @@ const app = Vue.createApp({
 		filteredPortfolioItems() {
 			const urlParams = new URLSearchParams(window.location.search);
 			const tax = urlParams.get("tax");
-
 			if (tax) {
 				return this.portfolioItems;
 			} else {
 				return this.portfolioItems.filter(
 					(item) =>
 						this.currentFilter === "All" ||
-						item.category === this.currentFilter
+						console.log(item.category)
 				);
 			}
 		},
@@ -2051,9 +1817,8 @@ const app = Vue.createApp({
 				).getFullYear() - 1970;
 			return yearsDuration === 0
 				? this.copyrightStartDate
-				: `${this.copyrightStartDate} - ${
-						this.copyrightStartDate + yearsDuration
-				  }`;
+				: `${this.copyrightStartDate} - ${this.copyrightStartDate + yearsDuration
+				}`;
 		},
 	},
 	directives: {
