@@ -263,6 +263,8 @@ const app = Vue.createApp({
 				"Nuxt.js",
 				"Next.js",
 				"Nest.js",
+				"Node.js",
+
 			],
 			currentFilter: "All",
 
@@ -276,8 +278,8 @@ const app = Vue.createApp({
 					url: "single-portfolio.html?id=1",
 					imgUrl: "assets/images/portfolio/opflafil/op-flafal-1.png",
 					title: {
-						en: "Operation Flafal",
-						ar: "هنا عنوان المشروع 1",
+						en: "Operation Falafel",
+						ar: "عملية فلافل",
 					},
 					date: { en: "April 2021", ar: "أبريل 2021" },
 					desc: {
@@ -288,35 +290,37 @@ const app = Vue.createApp({
 					tools: [
 						"HTML",
 						"PugJS",
-						"CSS",
 						"SCSS",
-						"JavaScript",
-						"Gulp",
-						"Bootstrap",
-						"AJAX",
-						"Vue",
-						"Firebase",
+						"React.js",
+						"Postgres",
+						"Docker",
+						"Nginx",
+						"Node.js",
 					],
 					screenshots: {
 						img1: {
-							url: "https://via.placeholder.com/355x200",
-							caption: { en: "caption 5", ar: "تسمية توضيحية 5" },
+							url: "assets/images/portfolio/opflafil/op-flafal-2.png",
+							caption: { en: "caption 2", ar: "تسمية توضيحية 2" },
 						},
 						img2: {
-							url: "https://via.placeholder.com/330x460",
+							url: "assets/images/portfolio/opflafil/op-flafal-4.png",
 							caption: { en: "caption 4", ar: "تسمية توضيحية 4" },
 						},
 						img3: {
-							url: "https://via.placeholder.com/300x225",
-							caption: { en: "caption 3", ar: "تسمية توضيحية 3" },
+							url: "assets/images/portfolio/opflafil/op-flafal-5.png",
+							caption: { en: "caption 5", ar: "تسمية توضيحية 5" },
 						},
 						img4: {
-							url: "https://via.placeholder.com/300x225",
-							caption: { en: "caption 2", ar: "تسمية توضيحية 2" },
+							url: "assets/images/portfolio/opflafil/op-flafal-6.png",
+							caption: { en: "caption 6", ar: "تسمية توضيحية 6" },
 						},
 						img5: {
-							url: "https://via.placeholder.com/300x225",
-							caption: { en: "caption 1", ar: "تسمية توضيحية 1" },
+							url: "assets/images/portfolio/opflafil/op-flafal-7.png",
+							caption: { en: "caption 7", ar: "تسمية توضيحية 7" },
+						},
+						img5: {
+							url: "assets/images/portfolio/opflafil/op-flafal-8.png",
+							caption: { en: "caption 8", ar: "تسمية توضيحية 8" },
 						},
 					},
 				},
@@ -412,23 +416,23 @@ const app = Vue.createApp({
 					],
 					screenshots: {
 						img1: {
-							url: "https://via.placeholder.com/355x200",
+							url: "assets/images/portfolio/miuz/miuz-2.png",
 							caption: { en: "caption 5", ar: "تسمية توضيحية 5" },
 						},
 						img2: {
-							url: "https://via.placeholder.com/330x460",
+							url: "assets/images/portfolio/miuz/miuz-3.png",
 							caption: { en: "caption 4", ar: "تسمية توضيحية 4" },
 						},
 						img3: {
-							url: "https://via.placeholder.com/300x225",
+							url: "assets/images/portfolio/miuz/miuz-4.png",
 							caption: { en: "caption 3", ar: "تسمية توضيحية 3" },
 						},
 						img4: {
-							url: "https://via.placeholder.com/300x225",
+							url: "assets/images/portfolio/miuz/miuz-5.png",
 							caption: { en: "caption 2", ar: "تسمية توضيحية 2" },
 						},
 						img5: {
-							url: "https://via.placeholder.com/300x225",
+							url: "assets/images/portfolio/miuz/miuz-7.png",
 							caption: { en: "caption 1", ar: "تسمية توضيحية 1" },
 						},
 					},
@@ -786,47 +790,52 @@ const app = Vue.createApp({
 					imgUrl: "assets/images/portfolio/dubainights/dubainights-1.png",
 					title: {
 						en: "Dubai Nights",
-						ar: "هنا عنوان المشروع 16",
+						ar: "ليالي دبي",
 					},
 					date: { en: "April 2021", ar: "أبريل 2021" },
 					desc: {
 						en: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
 						ar: "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.",
 					},
-					category: "HTML",
+					category: ["Next.js", "Graphql", "Nest.js", "React.js"],
 					tools: [
 						"HTML",
-						"Slim",
-						"CSS",
-						"Less",
 						"JavaScript",
 						"TypeScript",
-						"Bootstrap",
-						"AJAX",
-						"Vue",
-						"NodeJs",
-						"MongoDB",
+						"Graphql",
+						"React.js",
+						"Nest.js",
+						"Postgres",
+						"CSS",
+						"SaSS",
+						"Docker",
+						"Nginx"
+
 					],
 					screenshots: {
 						img1: {
-							url: "https://via.placeholder.com/355x200",
-							caption: { en: "caption 5", ar: "تسمية توضيحية 5" },
-						},
-						img2: {
-							url: "https://via.placeholder.com/330x460",
-							caption: { en: "caption 4", ar: "تسمية توضيحية 4" },
-						},
-						img3: {
-							url: "https://via.placeholder.com/300x225",
-							caption: { en: "caption 3", ar: "تسمية توضيحية 3" },
-						},
-						img4: {
-							url: "https://via.placeholder.com/300x225",
+							url: "assets/images/portfolio/dubainights/dubainights-2.png",
 							caption: { en: "caption 2", ar: "تسمية توضيحية 2" },
 						},
+						img2: {
+							url: "assets/images/portfolio/dubainights/dubainights-3.png",
+							caption: { en: "caption 3", ar: "تسمية توضيحية 3" },
+						},
+						img3: {
+							url: "assets/images/portfolio/dubainights/dubainights-4.png",
+							caption: { en: "caption 4", ar: "تسمية توضيحية 4" },
+						},
+						img4: {
+							url: "assets/images/portfolio/dubainights/dubainights-5.png",
+							caption: { en: "caption 5", ar: "تسمية توضيحية 5" },
+						},
 						img5: {
-							url: "https://via.placeholder.com/300x225",
-							caption: { en: "caption 1", ar: "تسمية توضيحية 1" },
+							url: "assets/images/portfolio/dubainights/dubainights-6.png",
+							caption: { en: "caption 6", ar: "تسمية توضيحية 6" },
+						},
+						img5: {
+							url: "assets/images/portfolio/dubainights/dubainights-7.png",
+							caption: { en: "caption 7", ar: "تسمية توضيحية 7" },
 						},
 					},
 				},
@@ -1796,7 +1805,7 @@ const app = Vue.createApp({
 				return this.portfolioItems.filter(
 					(item) =>
 						this.currentFilter === "All" ||
-						console.log(item.category)
+						item.category.includes(this.currentFilter)
 				);
 			}
 		},
