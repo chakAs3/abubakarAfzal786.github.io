@@ -282,7 +282,7 @@
 									I can Help You!
 								</h2>
 								<p>
-									Hi! I’m Muhammad Mabrouk, and I’m a
+									Hi! I’m Abubakar, and I’m a
 									developer who has passion for building
 									clean web applications with intuitive
 									functionality. I enjoy the process of
@@ -297,8 +297,8 @@
 									project management.
 								</p>
 								<div class="btns-container">
-									<a href="#contact" class="btn btn-primary">Hire Me</a>
-									<a download href="#" class="btn btn-outline-light">Download CV</a>
+									<a href="https://www.upwork.com/freelancers/~01fb4ae445b4387870" class="btn btn-primary">Hire Me</a>
+									<!-- <a download href="#" class="btn btn-outline-light">Download CV</a> -->
 								</div>
 							</div>
 						</div>
@@ -469,7 +469,7 @@
 							<li class="portfolio-item" v-for="work in filteredPortfolioItems" :key="work.title.en">
 								<a :href="work.url" rel="noopener">
 									<div class="item-img">
-										<img :src="work.imgUrl" :alt="work.title.en" />
+										<img :src="work.imgUrl" :alt="work.title.en" loading="lazy" />
 									</div>
 									<div class="item-details">
 										<h3 class="title">

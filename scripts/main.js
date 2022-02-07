@@ -442,8 +442,8 @@ const app = Vue.createApp({
 					url: "single-portfolio.html?id=7",
 					imgUrl: "assets/images/portfolio/seha/seha-1.png",
 					title: {
-						en: "Lorem Ipsum Dolor 7",
-						ar: "هنا عنوان المشروع 7",
+						en: "Seha",
+						ar: "صحة",
 					},
 					date: { en: "April 2021", ar: "أبريل 2021" },
 					desc: {
@@ -452,38 +452,21 @@ const app = Vue.createApp({
 					},
 					category: "HTML",
 					tools: [
-						"HTML",
-						"PugJS",
+						"Laravel",
+						"Vue.js",
 						"CSS",
 						"SCSS",
 						"JavaScript",
-						"Gulp",
 						"Bootstrap",
 						"AJAX",
-						"Vue",
-						"Firebase",
+						"MySql",
 					],
 					screenshots: {
 						img1: {
-							url: "https://via.placeholder.com/355x200",
-							caption: { en: "caption 5", ar: "تسمية توضيحية 5" },
-						},
-						img2: {
-							url: "https://via.placeholder.com/330x460",
-							caption: { en: "caption 4", ar: "تسمية توضيحية 4" },
-						},
-						img3: {
-							url: "https://via.placeholder.com/300x225",
-							caption: { en: "caption 3", ar: "تسمية توضيحية 3" },
-						},
-						img4: {
-							url: "https://via.placeholder.com/300x225",
+							url: "assets/images/portfolio/seha/seha-2.png",
 							caption: { en: "caption 2", ar: "تسمية توضيحية 2" },
 						},
-						img5: {
-							url: "https://via.placeholder.com/300x225",
-							caption: { en: "caption 1", ar: "تسمية توضيحية 1" },
-						},
+
 					},
 				},
 				{
@@ -550,39 +533,47 @@ const app = Vue.createApp({
 						en: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
 						ar: "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.",
 					},
-					category: "Vue",
+					category: ["Vue.js", "Nest.js", "Postgres", "Jenkins"],
 					tools: [
-						"HTML",
-						"PugJS",
+						"Node.js",
+						"Vue.js",
 						"CSS",
 						"SCSS",
 						"JavaScript",
-						"Gulp",
 						"TailwindCSS",
-						"AJAX",
-						"Angular",
-						"Firebase",
+						"Jenkins",
+						"Postgres",
+						"Nest.js",
+
 					],
 					screenshots: {
 						img1: {
-							url: "https://via.placeholder.com/355x200",
-							caption: { en: "caption 5", ar: "تسمية توضيحية 5" },
-						},
-						img2: {
-							url: "https://via.placeholder.com/330x460",
-							caption: { en: "caption 4", ar: "تسمية توضيحية 4" },
-						},
-						img3: {
-							url: "https://via.placeholder.com/300x225",
-							caption: { en: "caption 3", ar: "تسمية توضيحية 3" },
-						},
-						img4: {
-							url: "https://via.placeholder.com/300x225",
+							url: "assets/images/portfolio/cobuilder/cobuilder-2.png",
 							caption: { en: "caption 2", ar: "تسمية توضيحية 2" },
 						},
+						img2: {
+							url: "assets/images/portfolio/cobuilder/cobuilder-3.png",
+							caption: { en: "caption 3", ar: "تسمية توضيحية 3" },
+						},
+						img3: {
+							url: "assets/images/portfolio/cobuilder/cobuilder-4.png",
+							caption: { en: "caption 4", ar: "تسمية توضيحية 4" },
+						},
+						img4: {
+							url: "assets/images/portfolio/cobuilder/cobuilder-5.png",
+							caption: { en: "caption 5", ar: "تسمية توضيحية 5" },
+						},
 						img5: {
-							url: "https://via.placeholder.com/300x225",
-							caption: { en: "caption 1", ar: "تسمية توضيحية 1" },
+							url: "assets/images/portfolio/cobuilder/cobuilder-6.png",
+							caption: { en: "caption 6", ar: "تسمية توضيحية 6" },
+						},
+						img5: {
+							url: "assets/images/portfolio/cobuilder/cobuilder-7.png",
+							caption: { en: "caption 7", ar: "تسمية توضيحية 7" },
+						},
+						img5: {
+							url: "assets/images/portfolio/cobuilder/cobuilder-8.png",
+							caption: { en: "caption 8", ar: "تسمية توضيحية 8" },
 						},
 					},
 				},
@@ -642,7 +633,7 @@ const app = Vue.createApp({
 					imgUrl: "assets/images/portfolio/baroque/baroque-aviation-1.png",
 					title: {
 						en: "Baroque Aviation",
-						ar: "هنا عنوان المشروع 13",
+						ar: "طيران الباروك",
 					},
 					date: { en: "April 2021", ar: "أبريل 2021" },
 					desc: {
@@ -651,37 +642,36 @@ const app = Vue.createApp({
 					},
 					category: "HTML",
 					tools: [
-						"HTML",
-						"PugJS",
+						"Laravel",
 						"CSS",
 						"SCSS",
 						"JavaScript",
 						"Gulp",
 						"TailwindCSS",
-						"AJAX",
+						"JWT",
 						"Angular",
-						"Firebase",
+						"MySql",
 					],
 					screenshots: {
 						img1: {
-							url: "https://via.placeholder.com/355x200",
-							caption: { en: "caption 5", ar: "تسمية توضيحية 5" },
-						},
-						img2: {
-							url: "https://via.placeholder.com/330x460",
-							caption: { en: "caption 4", ar: "تسمية توضيحية 4" },
-						},
-						img3: {
-							url: "https://via.placeholder.com/300x225",
-							caption: { en: "caption 3", ar: "تسمية توضيحية 3" },
-						},
-						img4: {
-							url: "https://via.placeholder.com/300x225",
+							url: "assets/images/portfolio/baroque/baroque-aviation-2.png",
 							caption: { en: "caption 2", ar: "تسمية توضيحية 2" },
 						},
+						img2: {
+							url: "assets/images/portfolio/baroque/baroque-aviation-3.png",
+							caption: { en: "caption 3", ar: "تسمية توضيحية 3" },
+						},
+						img3: {
+							url: "assets/images/portfolio/baroque/baroque-aviation-4.png",
+							caption: { en: "caption 4", ar: "تسمية توضيحية 4" },
+						},
+						img4: {
+							url: "assets/images/portfolio/baroque/baroque-aviation-5.png",
+							caption: { en: "caption 5", ar: "تسمية توضيحية 5" },
+						},
 						img5: {
-							url: "https://via.placeholder.com/300x225",
-							caption: { en: "caption 1", ar: "تسمية توضيحية 1" },
+							url: "assets/images/portfolio/baroque/baroque-aviation-6.png",
+							caption: { en: "caption 6", ar: "تسمية توضيحية 6" },
 						},
 					},
 				},
@@ -845,7 +835,7 @@ const app = Vue.createApp({
 					imgUrl: "assets/images/portfolio/baroque/baroque-yatch-1.png",
 					title: {
 						en: "Baroque Yatchs",
-						ar: "هنا عنوان المشروع 17",
+						ar: "يخوت الباروك",
 					},
 					date: { en: "April 2021", ar: "أبريل 2021" },
 					desc: {
@@ -854,37 +844,31 @@ const app = Vue.createApp({
 					},
 					category: "Angular",
 					tools: [
-						"HTML",
-						"PugJS",
+						"Laravel",
+						"Apache",
 						"CSS",
 						"SCSS",
 						"JavaScript",
 						"Gulp",
 						"TailwindCSS",
-						"AJAX",
-						"Angular",
-						"Firebase",
+						"MySql",
 					],
 					screenshots: {
-						img1: {
-							url: "",
-							caption: { en: "caption 5", ar: "تسمية توضيحية 5" },
-						},
 						img2: {
-							url: "https://via.placeholder.com/330x460",
-							caption: { en: "caption 4", ar: "تسمية توضيحية 4" },
+							url: "assets/images/portfolio/baroque/baroque-yatch-2.png",
+							caption: { en: "caption 2", ar: "تسمية توضيحية 2" },
 						},
 						img3: {
-							url: "https://via.placeholder.com/300x225",
+							url: "assets/images/portfolio/baroque/baroque-yatch-3.png",
 							caption: { en: "caption 3", ar: "تسمية توضيحية 3" },
 						},
 						img4: {
-							url: "https://via.placeholder.com/300x225",
-							caption: { en: "caption 2", ar: "تسمية توضيحية 2" },
+							url: "assets/images/portfolio/baroque/baroque-yatch-4.png",
+							caption: { en: "caption 4", ar: "تسمية توضيحية 4" },
 						},
 						img5: {
-							url: "https://via.placeholder.com/300x225",
-							caption: { en: "caption 1", ar: "تسمية توضيحية 1" },
+							url: "assets/images/portfolio/baroque/baroque-yatch-5.png",
+							caption: { en: "caption 5", ar: "تسمية توضيحية 5" },
 						},
 					},
 				},
