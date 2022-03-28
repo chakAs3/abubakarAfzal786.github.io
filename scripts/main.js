@@ -188,35 +188,35 @@ const app = Vue.createApp({
 			// list of experience items to loop through it
 			experienceItems: [
 				{
-					date: "2017",
-					companyName: { en: "Google Inc.", ar: "شركة جوجل" },
+					date: "2020",
+					companyName: { en: "Group Rhinos", ar: "شركة جوجل" },
 					jobTitle: {
-						en: "Front-End Developer",
+						en: "Full Stack Developer",
 						ar: "مطور الواجهة الأمامية",
 					},
 					desc: {
-						en: "Monitored technical aspects of the front-end delivery for projects.",
+						en: "Aggregated proficient understanding of full software development lifecycle, front/back-end development best practices, and agile methodologies to write sustainable code for user-side applications, including visual elements and overall layout of websites and mobile applications.",
 						ar: "مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.",
 					},
 				},
 				{
 					date: "2018",
-					companyName: { en: "Facebook Inc.", ar: "شركة فيسبوك" },
+					companyName: { en: "Programmers Force", ar: "شركة فيسبوك" },
 					jobTitle: {
 						en: "Full Stack Developer",
 						ar: "مطوّر الويب المتكامل",
 					},
 					desc: {
-						en: "Collaborate with creative and development teams on the execution of ideas.",
+						en: "Provide maintenance and development for existing projects by assisting with system testing and validation procedures to ensure accurate and on-tim deployment",
 						ar: "تعاونت مع الفرق الإبداعية في تطوير وتنفيذ أفكار مبتكرة.",
 					},
 				},
 				{
-					date: "2019",
-					companyName: { en: "Envato Inc.", ar: "شركة انفاتو" },
-					jobTitle: { en: "UI/UX Developer", ar: "مطور UI/UX" },
+					date: "2017",
+					companyName: { en: "Ranglerz Digital Marketing", ar: "شركة انفاتو" },
+					jobTitle: { en: "Laravel & Vue.js Developer", ar: "مطور UI/UX" },
 					desc: {
-						en: "Converted Photoshop layouts to web pages using HTML, CSS, and JavaScript.",
+						en: "Supported senior software developers with development, maintenance, and continuous improvement for enterprise-level web applications and existing systems",
 						ar: "تم تحويل تخطيطات Photoshop إلى صفحات ويب باستخدام HTML و CSS و JavaScript.",
 					},
 				},
@@ -244,8 +244,6 @@ const app = Vue.createApp({
 						ar: "تعاونت مع الفرق الإبداعية في تطوير وتنفيذ أفكار مبتكرة.",
 					},
 				},
-				{},
-				{},
 			],
 
 			// current page of portfolio items
@@ -930,76 +928,53 @@ const app = Vue.createApp({
 			// list of testimonials items to loop through it
 			testimonialsItems: [
 				{
-					imgUrl: "https://via.placeholder.com/200",
+					imgUrl: "assets/images/testimonials/anonymous-user.png",
 					quoteContent: {
-						en: "Nafie simply provides amazing web development service. Their team is extremely professional and the easiest to meet I have ever worked with. I would recommend Nafie to anyone.",
+						en: "Abu Baker is smart and intelligent guy who has immense knowledge of laravel 5.8 , bootsrap 4.0.0, php, css3, html5 SASS, Jquery, Javascript and other website technique that make him different as compare to other developer. He coding techniques and neatness are perfect and very easy to understand and execute. Initially i thought he was like very slow but the best part was he make you write all what u want on the project and design it in one shot. I recommend him to all employers on freelancer :)",
 						ar: "محمد يقدم خدمات مذهلة في تطوير الويب، ولديه فريق محترف يجعل التعامل معهم مطمئن للغاية. أوصي بفريقهم للجميع.",
 					},
-					quoteAuthor: { en: "Terrell Grimes", ar: "جابر العواني" },
-					jobTitle: { en: "Photographer", ar: "مصور فوتوغرافي" },
+					quoteAuthor: { en: "Aladeen", ar: "جابر العواني" },
+					jobTitle: { en: "entrepreneur", ar: "مصور فوتوغرافي" },
 				},
 				{
-					imgUrl: "https://via.placeholder.com/200",
+					imgUrl: "assets/images/testimonials/person-5.jpg",
 					quoteContent: {
-						en: "Excellent Team to work with. Always positive to find the most appropriate solution. Nafie is one of the professional web development agency that provides awesome services.",
+						en: "Abu understood our requirements and was able complete the job quickly.",
 						ar: "فريق ممتاز للعمل معه. إيجابي دائمًا للعثور على الحل الأنسب. هم إحدى شركات تطوير الويب المحترفة التي تقدم خدمات رائعة.",
 					},
 					quoteAuthor: { en: "Lonny Corkery", ar: "حسون القلال" },
 					jobTitle: { en: "Project Manager", ar: "مدير المشاريع" },
 				},
 				{
-					imgUrl: "https://via.placeholder.com/200",
+					imgUrl: "assets/images/testimonials/person-1.jpg",
 					quoteContent: {
-						en: "Nafie team is very professional, always delivers high quality results, and is always there to help. Look forward to working with Nafie in other projects.",
+						en: "Very professional. Knows his work. Delivers on time. Highly recommended.",
 						ar: "محمد مطور محترف للغاية يقدم دائمًا نتائج عالية الجودة ، وهو دائمًا موجود للمساعدة. نتطلع إلى العمل معه في مشاريع أخرى.",
 					},
 					quoteAuthor: { en: "Max Schmidt DDS", ar: "مصطفى الخليفي" },
 					jobTitle: { en: "CEO, Designer", ar: "أخصائي SEO" },
 				},
 				{
-					imgUrl: "https://via.placeholder.com/200",
+					imgUrl: "assets/images/testimonials/funny.jpg",
 					quoteContent: {
-						en: "Nafie worked on a handful of projects for us and has always exceeded our expectations. Nafie team is dedicated, talented and a delight to work with.",
+						en: "Abu was able to understand the requirements of our task, and engage with our team. I hope we can work together again someday",
 						ar: "عمل محمد في عدد كبير من المشاريع لأجلنا وكان دائمًا يفوق توقعاتنا. مطور متخصص وموهوب ونسعد دائمًا بالعمل معه.",
 					},
 					quoteAuthor: { en: "Amir Stoltenberg", ar: "عباس العنابي" },
 					jobTitle: { en: "Sales Manager", ar: "مدير مبيعات" },
 				},
 				{
-					imgUrl: "https://via.placeholder.com/200",
+					imgUrl: "assets/images/testimonials/lior.png",
 					quoteContent: {
-						en: "I know I can count on your service if I need my project done fast and with the best possible result. I am a regular customer and hope to continue our work!",
+						en: "Abu Bakar is extremely professional, talented, and experienced. Always available and very communicative. Working with him is very recommended for anyone who wants to trust their freelancers with closed eyes. I really enjoyed working with Abu Bakar, and can't wait for our next project together.",
 						ar: "يمكنني الاعتماد على خدمات محمد دائمًا وخاصة إذا كنت بحاجة إلى إنجاز مشروعي في أقل وقت وبأفضل نتيجة ممكنة. أنا عميل منتظم لديه وآمل أن نواصل عملنا معا دائمًا.",
 					},
-					quoteAuthor: { en: "Kenton Marquardt", ar: "سمير النجار" },
-					jobTitle: { en: "Art Director", ar: "آرت دايركتور" },
+					quoteAuthor: { en: "Lior Lindvor", ar: "سمير النجار" },
+					jobTitle: { en: "CEO Cyberfuze Ventures", ar: "آرت دايركتور" },
 				},
+				
 				{
-					imgUrl: "https://via.placeholder.com/200",
-					quoteContent: {
-						en: "Muhammad was a real pleasure to work with and we look forward to working with him again. He’s definitely the kind of developer you can trust with a project from start to finish.",
-						ar: "أنا سعيد حقًا بالعمل مع محمد وأتطلع إلى العمل معه مرة أخرى قريبا. هو بالتأكيد من المطورين الذي يمكنك الوثوق بهم للعمل على مشروعك من البداية إلى النهاية.",
-					},
-					quoteAuthor: { en: "Reyna Hammes", ar: "أمير داوود" },
-					jobTitle: {
-						en: "Motion Graphic Animator",
-						ar: "مصمم موشن جرافيك",
-					},
-				},
-				{
-					imgUrl: "https://via.placeholder.com/200",
-					quoteContent: {
-						en: "Muhammad was a real pleasure to work with and we look forward to working with him again. He’s definitely the kind of developer you can trust with a project from start to finish.",
-						ar: "أنا سعيد حقًا بالعمل مع محمد وأتطلع إلى العمل معه مرة أخرى قريبا. هو بالتأكيد من المطورين الذي يمكنك الوثوق بهم للعمل على مشروعك من البداية إلى النهاية.",
-					},
-					quoteAuthor: { en: "Jovan Parisian", ar: "منصور السقاط" },
-					jobTitle: {
-						en: "Motion Graphic Animator",
-						ar: "مصمم موشن جرافيك",
-					},
-				},
-				{
-					imgUrl: "https://via.placeholder.com/200",
+					imgUrl: "assets/images/testimonials/Deniss-Levskoi.jpeg",
 					quoteContent: {
 						en: "I know I can count on your service if I need my project done fast and with the best possible result. I am a regular customer and hope to continue our work!",
 						ar: "يمكنني الاعتماد على خدمات محمد دائمًا وخاصة إذا كنت بحاجة إلى إنجاز مشروعي في أقل وقت وبأفضل نتيجة ممكنة. أنا عميل منتظم لديه وآمل أن نواصل عملنا معا دائمًا.",
@@ -1008,98 +983,25 @@ const app = Vue.createApp({
 					jobTitle: { en: "Art Director", ar: "آرت دايركتور" },
 				},
 				{
-					imgUrl: "https://via.placeholder.com/200",
+					imgUrl: "assets/images/testimonials/person-2.jpg",
 					quoteContent: {
-						en: "Nafie worked on a handful of projects for us and has always exceeded our expectations. Nafie team is dedicated, talented and a delight to work with.",
-						ar: "عمل محمد في عدد كبير من المشاريع لأجلنا وكان دائمًا يفوق توقعاتنا. مطور متخصص وموهوب ونسعد دائمًا بالعمل معه.",
-					},
-					quoteAuthor: { en: "Rosa Ferry", ar: "نافع حاتم" },
-					jobTitle: { en: "Sales Manager", ar: "مدير مبيعات" },
-				},
-				{
-					imgUrl: "https://via.placeholder.com/200",
-					quoteContent: {
-						en: "Nafie team is very professional, always delivers high quality results, and is always there to help. Look forward to working with Nafie in other projects.",
-						ar: "محمد مطور محترف للغاية يقدم دائمًا نتائج عالية الجودة ، وهو دائمًا موجود للمساعدة. نتطلع إلى العمل معه في مشاريع أخرى.",
-					},
-					quoteAuthor: { en: "Keshaun Robel", ar: "صدقي الطويل" },
-					jobTitle: { en: "CEO, Designer", ar: "أخصائي SEO" },
-				},
-				{
-					imgUrl: "https://via.placeholder.com/200",
-					quoteContent: {
-						en: "Excellent Team to work with. Always positive to find the most appropriate solution. Nafie is one of the professional web development agency that provides awesome services.",
-						ar: "فريق ممتاز للعمل معه. إيجابي دائمًا للعثور على الحل الأنسب. هم إحدى شركات تطوير الويب المحترفة التي تقدم خدمات رائعة.",
-					},
-					quoteAuthor: { en: "Casper Paucek", ar: "حسان ادريس" },
-					jobTitle: { en: "Project Manager", ar: "مدير المشاريع" },
-				},
-				{
-					imgUrl: "https://via.placeholder.com/200",
-					quoteContent: {
-						en: "Nafie simply provides amazing web development service. Their team is extremely professional and the easiest to meet I have ever worked with. I would recommend Nafie to anyone.",
-						ar: "محمد يقدم خدمات مذهلة في تطوير الويب، ولديه فريق محترف يجعل التعامل معهم مطمئن للغاية. أوصي بفريقهم للجميع.",
-					},
-					quoteAuthor: { en: "Archibald Fadel", ar: "مجد الكافي" },
-					jobTitle: { en: "Photographer", ar: "مصور فوتوغرافي" },
-				},
-				{
-					imgUrl: "https://via.placeholder.com/200",
-					quoteContent: {
-						en: "Nafie simply provides amazing web development service. Their team is extremely professional and the easiest to meet I have ever worked with. I would recommend Nafie to anyone.",
-						ar: "محمد يقدم خدمات مذهلة في تطوير الويب، ولديه فريق محترف يجعل التعامل معهم مطمئن للغاية. أوصي بفريقهم للجميع.",
-					},
-					quoteAuthor: { en: "Tabitha Denesik", ar: "آسر بنسلامة" },
-					jobTitle: { en: "Photographer", ar: "مصور فوتوغرافي" },
-				},
-				{
-					imgUrl: "https://via.placeholder.com/200",
-					quoteContent: {
-						en: "Excellent Team to work with. Always positive to find the most appropriate solution. Nafie is one of the professional web development agency that provides awesome services.",
+						en: "Excellent Team to work with. Always positive to find the most appropriate solution",
 						ar: "فريق ممتاز للعمل معه. إيجابي دائمًا للعثور على الحل الأنسب. هم إحدى شركات تطوير الويب المحترفة التي تقدم خدمات رائعة.",
 					},
 					quoteAuthor: { en: "Javon Bogan", ar: "صهيب الشريف" },
 					jobTitle: { en: "Project Manager", ar: "مدير المشاريع" },
 				},
 				{
-					imgUrl: "https://via.placeholder.com/200",
+					imgUrl: "assets/images/testimonials/anonymous-user.png",
 					quoteContent: {
-						en: "Nafie team is very professional, always delivers high quality results, and is always there to help. Look forward to working with Nafie in other projects.",
+						en: "Abu is very professional, always delivers high quality results, and is always there to help. Look forward to working with Abu in other projects.",
 						ar: "محمد مطور محترف للغاية يقدم دائمًا نتائج عالية الجودة ، وهو دائمًا موجود للمساعدة. نتطلع إلى العمل معه في مشاريع أخرى.",
 					},
 					quoteAuthor: { en: "Duncan Kemmer", ar: "سيد كرم" },
 					jobTitle: { en: "CEO, Designer", ar: "أخصائي SEO" },
 				},
-				{
-					imgUrl: "https://via.placeholder.com/200",
-					quoteContent: {
-						en: "Nafie worked on a handful of projects for us and has always exceeded our expectations. Nafie team is dedicated, talented and a delight to work with.",
-						ar: "عمل محمد في عدد كبير من المشاريع لأجلنا وكان دائمًا يفوق توقعاتنا. مطور متخصص وموهوب ونسعد دائمًا بالعمل معه.",
-					},
-					quoteAuthor: { en: "Coy Johns", ar: "هيثم الشريف" },
-					jobTitle: { en: "Sales Manager", ar: "مدير مبيعات" },
-				},
-				{
-					imgUrl: "https://via.placeholder.com/200",
-					quoteContent: {
-						en: "I know I can count on your service if I need my project done fast and with the best possible result. I am a regular customer and hope to continue our work!",
-						ar: "يمكنني الاعتماد على خدمات محمد دائمًا وخاصة إذا كنت بحاجة إلى إنجاز مشروعي في أقل وقت وبأفضل نتيجة ممكنة. أنا عميل منتظم لديه وآمل أن نواصل عملنا معا دائمًا.",
-					},
-					quoteAuthor: { en: "Murphy Roberts", ar: "إسلام مصطفى" },
-					jobTitle: { en: "Art Director", ar: "آرت دايركتور" },
-				},
-				{
-					imgUrl: "https://via.placeholder.com/200",
-					quoteContent: {
-						en: "Muhammad was a real pleasure to work with and we look forward to working with him again. He’s definitely the kind of developer you can trust with a project from start to finish.",
-						ar: "أنا سعيد حقًا بالعمل مع محمد وأتطلع إلى العمل معه مرة أخرى قريبا. هو بالتأكيد من المطورين الذي يمكنك الوثوق بهم للعمل على مشروعك من البداية إلى النهاية.",
-					},
-					quoteAuthor: { en: "Dimitri Lockman", ar: "وسيم السقا" },
-					jobTitle: {
-						en: "Motion Graphic Animator",
-						ar: "مصمم موشن جرافيك",
-					},
-				},
+			
+				
 			],
 		};
 	},
